@@ -38,13 +38,5 @@ list1=[[0 for i in range(columns)]for j in range(rows)]
 for i in range(rows):
     for j in range(columns):
         list1[i][j]=int(input("enter value: "))
-
-'''sum1=sum2=0
-for i in range(rows):
-    sum1+=list1[i][columns-1]
-for j in range(columns):
-    sum2+=list1[rows-1][j]
-if sum1==sum2:'''
+      
 north_west(list1,rows,columns)
-#else:
- #   print("this method still in progress")
